@@ -1,0 +1,56 @@
+### Linked List: 
+A linked list or one way list is a linear collection of data elements, called Nodes.
+Each node is divided into two parts.
+1. The first part contains the information of the element.
+2. The second part contains the address of the next node.
+
+=> Why linked list Data Structure Needed ?
+Ans: 
+1. It is relatively expensive to insert and delete elements in an array.
+2. Array usually occupies a block of memory space, one cannot simply double or triple size of an array when additional space is needed. 
+
+=> Advantages of Linked List:
+Ans:
+1. Linked List is a dynamic data structure.
+2. The insertion and deletion of elements are simpler than arrays.
+3. The Linked List does not waste extra memory.
+4. It is not necessary to specify the size of the list.
+5. Linked list provides the flexibility to be rearranged the data elements.
+
+=> The linked list mainly has three types, they are:
+a) Singly Linked List
+b) Doubly Linked Lists
+c) Circular Linked List
+
+=> Traversing a Linked List:
+Algorithm:
+Let LIST be a linked list in memory.This algorithm traverses LIST, applying an operation PROCESS to each element of the list. The variable PTR point to the node which is currently being processed...
+
+1. Set PTR = START [Initializes pointer PTR]
+2. Repeat Steps 3 and 4 while PTR!=NULL.
+3. Apply PROCESS to INFO[PTR].
+4. Set PTR = LINK[PTR]. [PTR now points to the next node.]
+5. Exit.
+
+=> Searching a Linked List:
+Algorithm (When list is unsorted): 
+This algorithm finds the location LOC of the node where the ITEM first appear in LIST, otherwise sets LOC = NULL
+
+1. Set PTR = START. [Initializes pointer PTR]
+2. Repeat Step 3 and 4 while PTR != NULL.
+3. if ITEM = INFO[PTR] then:
+Set LOC = PTR, and return. [Search is successful.]
+[End of If structure.]
+
+Else Set PTR = LINK[PTR] [End of Step 2 loop.]
+4. Set LOC = NULL, and return. [Search is unsuccessful.]
+5. Exit.
+
+=> Difference between Array and Linked List:
+Array:							Linked List:
+1. Arrays are stored in contiguous      		1.Linked list are stored in dynamic
+   location.						memory location.
+2. Fixed in size.					2. Dynamic in size.
+3. Memory is allocated in compile time. 		3. Memory is allocated in run time.
+4. Elements can be accessed easily.			4. Elements can be accessed by traversing the whole linked list.
+5. Insertion and Deletion operation takes time.		5. Insertion and Deletion operation is faster.
