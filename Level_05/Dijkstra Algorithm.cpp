@@ -58,8 +58,7 @@ int main()
         {INF, INF, 0, INF, 3, INF},
         {INF, INF, INF, 0, INF, 1},
         {INF, INF, INF, 2, 0, 5},
-        {INF, INF, INF, INF, INF, 0}
-        };
+        {INF, INF, INF, INF, INF, 0}};
     int start = 0;
     diakstra(Graph, start);
     return 0;
