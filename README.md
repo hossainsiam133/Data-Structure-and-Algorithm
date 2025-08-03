@@ -36,16 +36,16 @@ flowchart TD
 1. [Stack Data Structure
 ](./Tutorial/01_stack_data_structure_.md)
 2. [Sorting Algorithms
-](02_sorting_algorithms_.md)
+](./Tutorial/02_sorting_algorithms_.md)
 3. [Prime Number Sieve
-](03_prime_number_sieve_.md)
+](./Tutorial/03_prime_number_sieve_.md)
 4. [Priority Queue
-](04_priority_queue_.md)
+](./Tutorial/04_priority_queue_.md)
 5. [Graph Representation
-](05_graph_representation_.md)
+](./Tutorial/05_graph_representation_.md)
 6. [Graph Traversal
-](06_graph_traversal_.md)
+](./Tutorial/06_graph_traversal_.md)
 7. [Shortest Path Algorithms
-](07_shortest_path_algorithms_.md)
+](./Tutorial/07_shortest_path_algorithms_.md)
 
 ---
