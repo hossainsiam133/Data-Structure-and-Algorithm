@@ -34,7 +34,7 @@ flowchart TD
 ## Chapters
 
 1. [Stack Data Structure
-](../Tutorial/01_stack_data_structure_.md)
+](./Tutorial/01_stack_data_structure_.md)
 2. [Sorting Algorithms
 ](02_sorting_algorithms_.md)
 3. [Prime Number Sieve
