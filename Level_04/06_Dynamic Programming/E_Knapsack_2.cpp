@@ -3,7 +3,7 @@
 using namespace std;
 long long n, W;
 long long w[123], p[123];
-const int mx = 1e5 + 123;
+const int mx = 1e7;
 long long dp[123][mx];
 long long solve(int i, long long cp)
 {
