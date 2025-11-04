@@ -24,7 +24,7 @@ void Union(int u, int v)
 {
     par[v] = u;
 }
-int findCircleNum(vector<vector<int>> &isConnected)
+int findCircleNum(vector<vector<int> > &isConnected)
 {
     int n = isConnected.size();
     for (int i = 0; i < n; i++)
